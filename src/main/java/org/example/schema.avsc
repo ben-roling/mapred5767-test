@@ -1,0 +1,8 @@
+{
+  "namespace": "org.example",
+  "type": "record", 
+  "name": "StringList",
+  "fields" : [
+    {"name": "value", "type": {"type": "array", "items": "string"}}
+  ]
+}
